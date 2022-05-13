@@ -2,49 +2,62 @@ body {
     background-color: rgba(184, 64, 13, 0.441);
     font-family: "Nunito", sans-serif;
 }
-#first-sec{
+
+#first-sec {
     margin-top: 3.5rem;
 }
-.page{
+
+.page {
     margin-top: 3.5rem;
 }
-#mainNavbar .navbar-brand{
+
+#mainNavbar .navbar-brand {
     color: rgb(255, 255, 255);
-    
+
 }
-#mainNavbar .nav-link{
+
+#mainNavbar .nav-link {
     color: aliceblue;
 }
+
 #mainNavbar .nav-link:hover {
     color: black;
 }
+
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
-    
+
 }
-#carouselExampleControls{
+
+#carouselExampleControls {
     margin-top: 3.5rem;
 }
-.caro-main{
+
+.caro-main {
     display: flex;
     justify-content: center;
     margin-top: 3.5rem;
 }
-.caro-size{
+
+.caro-size {
     max-height: 400px;
     max-width: 600px;
-    
+
 }
+
 img {
     width: 600px;
     height: 400px;
-    border-radius: 10px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.115);
 }
-.carousel-control-next, .carousel-control-prev{
-    opacity: .1
-    ;
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: .1;
 }
+
 .img-icon {
     width: 2rem;
     height: 2rem;
@@ -55,34 +68,48 @@ img {
     height: 2px;
     width: 80%;
     margin-left: 2rem;
-    
+
 }
-.ins-header p{
+
+.ins-header p {
     text-align: center;
     font-weight: 25px;
     font-size: 1.2rem;
     color: blue;
-   
+
 }
+
 h4 {
     color: rgb(34, 34, 200);
     font-size: 2rem;
 }
+
 .second-column p {
     border-bottom: 2px solid gainsboro;
 }
-.second-column div:nth-of-type(2){
+
+.second-column div:nth-of-type(2) {
     margin-top: 20%;
 }
+.more-btn{
+    opacity: .5;
+}
+.more-btn:hover {
+    
+    opacity: 1;
+
+
 footer {
     margin-top: 2rem;
 }
-footer p{
-    margin-left: 3rem;;
+
+footer p {
+    margin-left: 3rem;
+    ;
 }
 
 @media screen and (min-width:768px) {
-    .second-column div:nth-of-type(2){
+    .second-column div:nth-of-type(2) {
         margin-top: 75%;
     }
 }
