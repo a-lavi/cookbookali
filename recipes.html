@@ -145,12 +145,28 @@
         </div>
     </main>
     <!-- footer -->
-    <footer class="  page-footer">
-        <p class="">
-            &copy; <span id="date"></span>
-            <span>Our Cookbook</span> Built by me
-
-        </p>
+    <footer class="  page-footer m-5">
+        <div class="row ml-2 mr-2">
+            <div class="col-4">
+              <p class="">
+                &copy; <span id="date"></span>
+                <span>Our Cookbook</span> Built by me
+              </p>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4">
+              <h3>Sign-up for recipes to your inbox</h3>
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+      
+                <button type="submit" class="btn btn-secondary more-btn">Submit</button>
+              </form>
+            </div>
+          </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
