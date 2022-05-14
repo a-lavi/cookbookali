@@ -51,6 +51,8 @@ img {
     height: 400px;
     border-radius: 8px;
     box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.115);
+    margin: 1rem;
+    
 }
 
 .carousel-control-next,
@@ -78,6 +80,7 @@ img {
     color: blue;
 
 }
+recipe
 
 h4 {
     color: rgb(34, 34, 200);
